@@ -1,0 +1,25 @@
+Objetivo: 
+    Criar uma API Restfull para Controle de Produtos
+
+Modelo: OK
+    Produto: id, nome, quantidade, valor, observação
+
+Repositorio de Produto: OK
+    ObterTodos, ObterPorId, Adcionar Produto, Atualizar Produto, Deletar Produto
+
+
+Pastas:
+
+Model: Onde ira ficar todos os meu modelos / entidades do Banco de dados
+Controller: Onde ira ficar meus controladores as classes que vao receber as requisições
+Services: Onde ira ficar todos os serviços, onde vao ficar as classes de serviço responsavel 
+          pela regras de nogocio onde os controladores irão se comunicar
+repository: Onde os serviços se comunicao para poder fazer a persistencia de dados / onde ira ser 
+           gravado dados
+
+______________________________________________________________________________________________________________________________________________________________________
+Para Criar uma api Restfull:
+1 Criar o Modelo de Produtos.
+    seria o Controller mas o controler vai depender do serviço
+    e o serviçõ vai depender do repositorio
+2 repositorio de Produto
